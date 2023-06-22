@@ -1,4 +1,4 @@
-import "./globals.css";
+import "./globals.scss";
 import {Inter} from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -14,9 +14,11 @@ export default function RootLayout({children}: {children: React.ReactNode}) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Header />
-        {children}
-        <Footer />
+        <div className="layout">
+          <Header />
+          {children}
+          <Footer />
+        </div>
       </body>
     </html>
   );

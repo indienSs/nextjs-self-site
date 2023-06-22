@@ -1,6 +1,8 @@
+import "./globals.scss"
+
 export default function Home() {
   return (
-    <div>
+    <div className="page">
       Home page about author
     </div>
   )

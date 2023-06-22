@@ -1,4 +1,5 @@
 import {Metadata} from "next";
+import "../globals.scss"
 
 export const metadata: Metadata = {
   title: "Навыки",
@@ -6,5 +7,5 @@ export const metadata: Metadata = {
 };
 
 export default function Skills() {
-  return <div>Мои навыки</div>;
+  return <div className="page">Мои навыки</div>;
 }

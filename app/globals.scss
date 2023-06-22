@@ -24,3 +24,16 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
+.layout {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.page {
+  padding: 50px;
+  background-color: #f5f7fa;
+  height: 100%;
+}
