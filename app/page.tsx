@@ -1,9 +1,10 @@
+import About from "@/components/About"
 import "./globals.scss"
 
 export default function Home() {
   return (
     <div className="page">
-      Home page about author
+      <About />
     </div>
   )
 }
