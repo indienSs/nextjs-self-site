@@ -6,10 +6,10 @@
   padding: 50px 20px;
   display: grid;
   grid-template-columns: 1fr 2fr;
-  height: 100%;
 
-  @media(max-width: 680px) {
+  @media(max-width: 760px) {
     grid-template-columns: 1fr;
+    height: 900px;
   }
 
   .photo {
