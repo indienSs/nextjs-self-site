@@ -18,30 +18,38 @@ function About() {
           </a>
         </div>
         <p className={styles.profession}>Frontend developer</p>
-          <p>Ключевые навыки</p>
+        <div className={styles.skills}>
+          <p>Основные навыки</p>
           <div className={styles.links}>
             <Image src={"/html.png"} width={20} height={20} alt="html" title="HTML" />
             <Image src={"/css.png"} width={20} height={20} alt="css" title="CSS" />
-            <Image src={"/js.png"} width={20} height={20} alt="JavaScript" title="JavaScript"/>
-            <Image src={"/ts.png"} width={20} height={20} alt="TypeScript" title="TypeScript"/>
-            <Image src={"/react.png"} width={20} height={20} alt="React" title="React"/>
+            <Image src={"/js.png"} width={20} height={20} alt="JavaScript" title="JavaScript" />
+            <Image src={"/ts.png"} width={20} height={20} alt="TypeScript" title="TypeScript" />
+            <Image src={"/react.png"} width={20} height={20} alt="React" title="React" />
           </div>
+        </div>
+        <div className={styles.skills}>
           <p>Дополнительные навыки</p>
           <div className={styles.links}>
+            <Image src={"/next.png"} width={20} height={20} alt="next" title="Next.js" />
+            <Image src={"/node.png"} width={34} height={20} alt="next" title="Node.js" />
             <Image src={"/git.png"} width={20} height={20} alt="git" title="git" />
-            <Image src={"/next.png"} width={20} height={20} alt="next" title="next" />
+            <Image src={"/redux.png"} width={20} height={20} alt="redux" title="Redux" />
+            <Image src={"/sass.png"} width={20} height={20} alt="sass" title="Sass" />
           </div>
+        </div>
       </div>
       <div className={styles.about_me}>
-        <h3>Обо мне</h3>
+        <h3>О себе</h3>
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit, laboriosam molestiae! Possimus facilis sit in
-          accusamus ad porro unde exercitationem! Ut temporibus inventore dignissimos dolorum ducimus iusto hic
-          exercitationem tempore quas aspernatur facere autem tempora, commodi maxime nobis ipsam ab dolores sunt
-          laborum, laboriosam quidem sapiente. Culpa eos aliquid sit eius aspernatur commodi in labore repudiandae ad!
-          Unde assumenda accusamus aperiam rem? Error maxime blanditiis quod alias mollitia. In esse totam sint odit
-          delectus sed excepturi neque enim quaerat numquam!
+          Хорошее знание и понимание принципов ООП, HTML, CSS, Javascript, Node.js, Typescript, React, Next.js, Redux,
+          Sass, Rest API, Docker, Git, Figma, принципов работы серверной и клиентской частей веб-приложений. <br /><br />
         </p>
+        <p>
+          Опыт работы в создании api на базе Express.js, а так же опыт разработки мобильных приложений на React native +
+          expo.<br /><br />
+        </p>
+        <p>Опыт работы в команде над созданием web и мобильных приложений.</p>
       </div>
     </div>
   );

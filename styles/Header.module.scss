@@ -11,13 +11,20 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 1000px;
+    max-width: 980px;
     width: 100%;
   }
 
   .navigation {
     display: flex;
     gap: 20px;
+    transition: box-shadow .8s ease-in-out;
+
+    .nav_item {
+      &:hover {
+        box-shadow: 0 2px gray;
+      }
+    }
   }
 
   .selectors {
