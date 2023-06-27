@@ -1,5 +1,6 @@
 import {Metadata} from "next";
 import "../globals.scss"
+import ApiSkill from "@/components/ApiSkill";
 
 export const metadata: Metadata = {
   title: "Навыки",
@@ -7,5 +8,7 @@ export const metadata: Metadata = {
 };
 
 export default function Skills() {
-  return <div className="page">Мои навыки</div>;
+  return <div className="page">
+    <ApiSkill />
+  </div>
 }
