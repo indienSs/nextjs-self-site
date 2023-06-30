@@ -2,11 +2,13 @@ import {createSlice} from "@reduxjs/toolkit";
 import {AppState} from "../store";
 
 export interface IAppState {
-  language: string;
+  language: "RU" | "EN";
+  theme: "dark" | "light";
 }
 
 const initialState: IAppState = {
   language: "RU",
+  theme: "light",
 };
 
 export const appSlice = createSlice({
